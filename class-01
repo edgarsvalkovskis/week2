@@ -1,1 +1,109 @@
+# Week 2 Lesson 1
 
+### In this lesson I will learn these topics such as:
+
+ - [How the Web Works](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+ - [Website Design and Process](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like)
+ - [JavaScript Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics): - focused on comments
+ -  [Introduction to HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/)
+ [Getting Started with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+ - [HTML Document Structure](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure)
+ - [Metadata in HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML)
+ - [How to start to design a Website](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Thinking_before_coding)
+ - [Semantics](https://developer.mozilla.org/en-US/docs/Glossary/Semantics)
+ - [What is JavaScript?](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+
+## Getting Started:
+1.  Compose a short poem describing how HTTP sends data between computers.
+
+Through the HTTP protocol, **resources are exchanged between client devices and servers over the internet**. Client devices send requests to servers for the resources needed to load a web page; the servers send responses back to the client to fulfill the requests.
+[How The Web Works - The Big Picture](https://www.youtube.com/watch?v=hJHvdBlSxug&ab_channel=Academind)
+
+2.  Describe how HTML, CSS, and JS files are “parsed” in the browser.
+[How does a browser work ? | Engineering side](https://www.youtube.com/watch?v=5rLFYtXHo9s&t=1130s&ab_channel=HiteshChoudhary)
+
+3.  How can you find images to add to a Website?
+
+*You can find images on the world wide web or use the ones that is held on your local computer.*
+
+4.  How do you create a  `String`  vs a  `Number`  in JavaScript?
+
+*String literals can be specified using single or double quotes, which are treated identically, or using the backtick character***
+
+5.  What is a  `Variable`  and why are they important in JavaScript?
+
+https://open.spotify.com/episode/4FTZ35KUFZEkt5t5r25pjK
+[What's the Difference Between var, let and const? | JavaScript Pro Tips #2](https://www.youtube.com/watch?v=ZUk6RppaEYE&ab_channel=JamesGrimshaw)
+
+## Introduction to HTML
+
+1.  What is an HTML attribute?
+**Points to remember for attributes:**
+
+-   Attributes always come in name/value pairs like this: attribute_name=”value”.
+-   Attributes are always added to the start tag of an HTML element.
+-   Attribute values should always be enclosed in quotes. Double style quotes (“ ”) are the most common, but single style quotes (‘ ’) are also allowed.
+-   In some rare situations, like when the attribute value itself contains quotes, it is necessary to use single quotes: name=’John “ShotGun” Nelson’ and vice-versa.
+[HTML Attributes](https://www.youtube.com/watch?v=29IbTXYRo5U&ab_channel=GCFLearnFree)
+
+2.  Describe the Anatomy of an HTMl element.
+[The Anatomy of an HTML Tag](https://www.youtube.com/watch?v=S3DExqoV-aQ&ab_channel=LondonAppBrewery)
+
+3.  What is the Difference between  `<article>`  and  `<section>`  element tags? Semantic Tags
+**The article element specifies independent, self-contained content.**  **The  section  element defines section in a document**.
+[Why & When to Use Semantic HTML Elements over Divs](https://www.youtube.com/watch?v=bOUhq46fd5g&ab_channel=ByteGrad)
+
+4.  What Elements does a “typical” website include?
+[https://www.wix.com/blog/parts-of-a-website](https://www.wix.com/blog/parts-of-a-website) 
+
+-   **header:**  [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header).
+-   **navigation bar:**  [`<nav>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav).
+-   **main content:**  [`<main>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main), with various content subsections represented by  [`<article>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article),  [`<section>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section), and  [`<div>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div)  elements.
+-   **sidebar:**  [`<aside>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside); often placed inside  [`<main>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main).
+-   **footer:**  [`<footer>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer).
+5.  How does metadata influence Search Engine Optimization?
+
+Using metadata **boosts your SEO efforts because it's written in the search engine's language**. This helps search engines better understand the topic of your web pages and content. It also helps them display more relevant results to searchers.
+[SEO Metadata Fundamentals](https://www.youtube.com/watch?v=aNCwirKqyDk&ab_channel=StevenMatt)
+
+6.  How is the  `<meta>`  HTML tag used when specifying metadata?
+
+`meta` tags represent metadata. They are essentially used for defining and describing data about data, and are used to add extra information to the data inside the webpage.
+https://www.freecodecamp.org/news/meta-tag-in-html-what-is-metadata-and-meta-description-example/
+
+## Miscellaneous
+
+1.  What is the first step to designing a Website?
+
+When you get an idea and want to turn it into a website, there are a few questions you should answer before anything else:
+
+-   What exactly do I want to accomplish?
+-   How will a website help me reach my goals?
+-   What needs to be done, and in what order, to reach my goals?
+
+All of this is called  _project ideation_  and is a necessary first step to reach your goal, whether you are a beginner or an experienced developer.
+
+2.  What is the most important question to answer when designing a Website?
+
+***What exactly do I want to accomplish?***
+
+## Semantics
+[HTML5 Semantic Markup Tags & Layout - HTML Tutorial for Beginners](https://www.youtube.com/watch?v=YXCbjS2fxzU&ab_channel=PixemWeb)
+
+1.  Why should you use an  `<h1>`  element over a  `<span>`  element to display a top level heading?
+< span > has no meaning other than to serve as a tool to style in CSS. **When using < h1 > this will already have, for example, a set font-weight which will be interpreted by the browser**.
+2.  What are the benefits of using semantic tags in our HTML?
+-   Search engines will consider its contents as important keywords to influence the page's search rankings
+-   Screen readers can use it as a signpost to help visually impaired users navigate a page
+-   Finding blocks of meaningful code is significantly easier than searching through endless  `div`s with or without semantic or namespaced classes
+-   Suggests to the developer the type of data that will be populated
+-   Semantic naming mirrors proper custom element/component naming
+
+## What is JavaScript?
+
+1.  Describe 2 things that  _require_  JavaScript in the Browser?
+[JavaScript - In the Browser](https://www.youtube.com/watch?v=wnUhEMhEeDs&ab_channel=ChuckSeverance)
+2.  How can you add JavaScript to an HTML document?
+[How to Include JavaScript in Our HTML](https://www.youtube.com/watch?v=AD5hxsFJc4o&ab_channel=DaniKrossing)
+
+https://www.digitalocean.com/community/tutorials/how-to-add-javascript-to-html
